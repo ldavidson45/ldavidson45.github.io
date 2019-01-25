@@ -1,0 +1,13 @@
+.navbar {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 0 10px 0;
+  }
+  
+  .navlink {
+    list-style-type: none; /* source = stackoverflow.com */
+    padding: 20px 20px;
+  }
