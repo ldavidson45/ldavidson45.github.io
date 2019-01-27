@@ -1,117 +1,25 @@
-body {
-    margin: 0;
+.header {
+    background: blue;
+    font-size: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
 }
-.navbar {
+
+.liz-pic {
+    border-radius: 100px;
+    margin: 0 0 40px 0;
+}
+
+.bio-text {
+    display: inline-block;
+}
+
+i {
     background: white;
-    color: #ff383f;
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 1fr 4fr;
-    margin: 0 10px;
-  }
-    
-  .navlink-container {
-      background: white;
-      grid-column: 2;
-      display: flex;
-      justify-content: flex-end;
-      margin: 0;
-  }
-
-  .navlink {
-    list-style-type: none; /* source = stackoverflow.com */
-    padding: 10px 20px;
-    border-color: gainsboro;
-    font-family: 'Raleway', sans-serif; /* found this using Google fonts*/
-    text-transform: uppercase;
-
-  }
-
-  .image-bio {
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: 1fr 4fr;
-      background: #062f4f;
-  }
-
-
-  .liz-pic {
-      border-radius: 100px;
-      grid-row: 1;
-      grid-column: 1;
-      background: white;
-      margin: 50px 80px;
-  }
-
-  .bio-text {
-      grid-row: 1;
-      grid-column: 2;
-      color: white;
-      margin: 50px 20px;
-
-  }
-
-  p {
-      margin: 10px 0;
-      font-family: 'Raleway', sans-serif;
-
-  }
-
-  h1 {
-      margin: 20px 0 10px 0;
-      font-family: 'Montserrat', sans-serif; /* found this using Google fonts*/
-
-  }
-  .projects-main {
-      display: flex;
-      background: white;
-      justify-content: center;
-      padding: 25px;
-      flex-wrap: wrap;
-  }
-
-  .project {
-      background: white;
-      width: 150px;
-      height: 200px;
-      text-align: center;
-      padding: 20px;
-      border-radius: 20px;
-      margin: 20px;
-      font-family: 'Raleway', sans-serif; /* found this using Google fonts*/
-      border-color: #ff383f;
-      border-style: ridge;
-      box-shadow: 10px;
-
-
-  }
-
-  .subheader {
-      text-align: center;
-      font-family: 'Montserrat', sans-serif;
-
-  }
-
-  footer {
-      display: flex;
-      justify-content: center;
-      height: 10px;
-  }
-
-.logo-placeholder {
-    font-family: 'Coming Soon', cursive;
-    font-size: 20px;
-    border: 0;
-    margin: 5px, 0, 0, -20px;
-    padding: 0; 
+    border-radius: 100px;
+    margin: auto;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
 }
-
-.social-nav {
-    line-height: 10px;
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background: gray;
-}
-  
