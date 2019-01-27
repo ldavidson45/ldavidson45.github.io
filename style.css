@@ -3,7 +3,8 @@
     color: #ff383f;
     display: grid;
     grid-template-rows: 50px;
-    grid-template-columns: 1fr 4fr;  
+    grid-template-columns: 1fr 4fr;
+    margin: 0 10px;
   }
     
   .navlink-container {
@@ -11,6 +12,7 @@
       grid-column: 2;
       display: flex;
       justify-content: flex-end;
+      margin: 0;
   }
 
   .navlink {
@@ -62,16 +64,17 @@
       background: white;
       justify-content: center;
       padding: 25px;
+      flex-wrap: wrap;
   }
 
   .project {
       background: white;
-      width: 250px;
-      height: 300px;
+      width: 150px;
+      height: 200px;
       text-align: center;
       padding: 20px;
       border-radius: 20px;
-      margin: 0 20px;
+      margin: 20px;
       font-family: 'Raleway', sans-serif; /* found this using Google fonts*/
       border-color: #ff383f;
       border-style: ridge;
