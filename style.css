@@ -1,6 +1,7 @@
 body {
-    background: gold;
+    background: #2C4251;
     margin: 0px;
+    width: auto;
 }
 
 /* Flexbox help from css-tricks.com */
@@ -8,12 +9,10 @@ body {
 .top-portion {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin: 0;
 }
 
 .header {
-    background: blue;
     font-size: 30px;
     display: inline-flex;
     flex-direction: column;
@@ -27,10 +26,9 @@ body {
     border-color: black;
 }
 
-.bio-text {
+.bio-container {
     padding: 25px;
-    background: navajowhite;
-    
+    color: #ffffff;
 }
 
 .social-icon {
@@ -41,4 +39,14 @@ body {
     padding: 10px 15px;
     border-style: solid;
     border-color: black;
+}
+
+.liz-davidson {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.bio-text {
+    font-family: 'Raleway', sans-serif;
+    padding: 5% 10%;
 }
