@@ -47,9 +47,22 @@ body {
     border-color: black;
 }
 
+.social-icon:hover {
+    background: #B6C649;
+    color: white;
+    border-style: solid;
+    border-color: #B6C649;
+}
+
 .liz-davidson {
     font-family: 'Permanent Marker', cursive;
     font-size: 50px;
+}
+
+/* transform learned on css-tricks.com */
+.liz-pic:hover {
+    transform:scale(1.15);
+    box-shadow: none;
 }
 
 .bio-text {
@@ -59,14 +72,18 @@ body {
 
 .project-card {
     background: #D16666;
-    width: 30%;
+    width: 10%;
     height: 50px;
     box-shadow: 5px 5px 5px gray;
 }
 
 .projects-section {
     display: flex;
-    justify-content: space-around;
-    margin: 25px;
+    justify-content: space-evenly;
+    margin: 10px;
+
+
 
 }
+
+/* hover animation learned from w3schools.com */
