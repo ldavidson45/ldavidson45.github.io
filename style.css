@@ -1,5 +1,4 @@
 body {
-    background: #2C4251;
     margin: 0px;
     width: auto;
 }
@@ -10,6 +9,10 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    background: #2C4251;
+    border-bottom-style: dotted;
+    border-bottom-color: #D16666;
+
 }
 
 .header {
@@ -24,7 +27,10 @@ body {
     margin: 0 0 40px 0;
     border-style: solid;
     border-color: black;
+    box-shadow: 5px 5px 5px rgb(11, 15, 19);
 }
+
+/* box-shadow property learned from w3schools.com */
 
 .bio-container {
     padding: 25px;
@@ -49,4 +55,18 @@ body {
 .bio-text {
     font-family: 'Raleway', sans-serif;
     padding: 5% 10%;
+}
+
+.project-card {
+    background: #D16666;
+    width: 30%;
+    height: 50px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+
 }
