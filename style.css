@@ -16,7 +16,7 @@ header {
 }
 
 .pic {
-    width: 20%;
+    min-width: 20%;
 }
 
 .liz-pic {
@@ -81,4 +81,31 @@ main {
 .proj-pic {
     height: 250px;
     width: 250px;
+    border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+    }
+    
+    .pic {
+        margin: 0 auto;
+    }
+    
+    .top-line {
+        text-align: center;
+        margin: 0
+    }
+    .bottom-line {
+        text-align: center;
+        margin: 0;
+    }
+    .bio {
+        margin: 0;
+
+    }
+
 }
