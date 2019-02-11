@@ -1,89 +1,84 @@
-body {
-    margin: 0px;
-    width: auto;
+html {
+    height: 100%;
+    background-color: #282726
 }
 
-/* Flexbox help from css-tricks.com */
+body {
+    margin: 0;
+    min-height: 100%;
+}
 
-.top-portion {
+header {
     display: flex;
     flex-direction: row;
-    margin: 0;
-    background: #2C4251;
-    border-bottom-style: dotted;
-    border-bottom-color: #D16666;
-
+    width: 90%;
+    margin: 5% 5%;
 }
 
-.header {
-    font-size: 30px;
-    display: inline-flex;
-    flex-direction: column;
-    padding: 20px;
+.pic {
+    width: 20%;
 }
 
 .liz-pic {
+    border: 1px solid white;
     border-radius: 100px;
-    margin: 0 0 40px 0;
-    border-style: solid;
-    border-color: black;
-    box-shadow: 5px 5px 5px rgb(11, 15, 19);
+    margin: 0 auto;
+    
+    
 }
 
-/* box-shadow property learned from w3schools.com */
-
-.bio-container {
-    padding: 25px;
-    color: #ffffff;
-}
-
-.social-icon {
-    background: white;
-    border-radius: 100px;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 10px 15px;
-    border-style: solid;
-    border-color: black;
-}
-
-.social-icon:hover {
-    background: #B6C649;
+.bio {
+    /* background: green; */
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    margin-left: 3%;
     color: white;
-    border-style: solid;
-    border-color: #B6C649;
 }
 
-.liz-davidson {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 50px;
+.top-line {
+    margin-bottom: 0;
+    display: block;
+    border-bottom: 3px solid white;
 }
 
-/* transform learned on css-tricks.com */
-.liz-pic:hover {
-    transform:scale(1.15);
-    box-shadow: none;
+.bottom-line {
+    margin-top: 0;
+    text-align: right;
 }
 
-.bio-text {
-    font-family: 'Raleway', sans-serif;
-    padding: 5% 10%;
+.red {
+    color: #a7414a;
+    font-size: 60px;
+    line-height: 40px;
+    position: relative;
+    animation: bounce 5s infinite;
+    
 }
 
-.project-card {
-    background: #D16666;
-    width: 10%;
-    height: 50px;
-    box-shadow: 5px 5px 5px gray;
+main {
+    min-height: 80vh;
+    margin: 10px 10%;
 }
 
-.projects-section {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-
+.container {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 10px auto;
+    display: inline;
 
 
 }
 
-/* hover animation learned from w3schools.com */
+
+.normal {
+    color: white;
+    font-size: 20px;
+}
+
+.proj-pic {
+    height: 250px;
+    width: 250px;
+}
