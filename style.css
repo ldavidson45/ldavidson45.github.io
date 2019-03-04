@@ -1,111 +1,101 @@
-html {
-    height: 100%;
-    background-color: #282726
-}
-
 body {
-    margin: 0;
-    min-height: 100%;
+  background-color: #c4e6db;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    margin: 5% 5%;
+  display: flex;
+  flex-direction: row;
+  height: 178px;
+  max-width: 900px;
+  margin: 40px auto;
+  justify-content: center;
+  position: relative;
 }
 
-.pic {
-    min-width: 20%;
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0px auto;
+  justify-content: center;
+  position: relative;
+}
+
+h1 {
+  font-family: "Itim", cursive;
+  font-size: 42px;
+}
+
+h2 {
+    font-family: "Itim", cursive;
+    text-align: center
+
+
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+nav {
+  background-image: url("pics/paint.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  line-height: 50px;
+  margin-top: 60px;
 }
 
 .liz-pic {
-    border: 1px solid white;
-    border-radius: 100px;
-    margin: 0 auto;
-    
-    
+  border-radius: 50%;
+  position: absolute;
+  border: double black 2px;
 }
 
-.bio {
-    /* background: green; */
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 40px;
-    width: 100%;
-    margin-left: 3%;
-    color: white;
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  background-color: #eae3ea;
+  box-shadow: 10px 10px 30px -8px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
 
-.top-line {
-    margin-bottom: 0;
-    display: block;
-    border-bottom: 3px solid white;
+.card-img {
+  width: 90px;
+  height: 126px;
+  margin: 0 auto;
 }
 
-.bottom-line {
-    margin-top: 0;
-    text-align: right;
+.card-img-dc {
+width: 150px; 
+height: 126px;
+margin: 0 auto;   
 }
 
-.red {
-    color: #a7414a;
-    font-size: 60px;
-    line-height: 40px;
-    position: relative;
-    animation: bounce 5s infinite;
-    
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-main {
-    min-height: 80vh;
-    margin: 10px 10%;
+.small {
+    font-size: 12px;
 }
 
-.container {
-    color: white;
-    text-align: center;
-    font-size: 45px;
-    font-family: 'Didact Gothic', sans-serif;
-    margin: 10px auto;
-    display: inline;
-
-
+hr {
+    width: 100px;
 }
 
-
-.normal {
-    color: white;
-    font-size: 20px;
-}
-
-.proj-pic {
-    height: 250px;
-    width: 250px;
-    border: 1px solid white;
-}
-
-@media only screen and (max-width: 768px) {
-    header {
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-    }
-    
-    .pic {
-        margin: 0 auto;
-    }
-    
-    .top-line {
-        text-align: center;
-        margin: 0
-    }
-    .bottom-line {
-        text-align: center;
-        margin: 0;
-    }
-    .bio {
-        margin: 0;
-
-    }
-
+a {
+    text-decoration: none;
+    color: black;
 }
