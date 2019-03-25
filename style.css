@@ -1,103 +1,24 @@
 body {
-  background-color: #c4e6db;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  height: 178px;
-  max-width: 900px;
-  margin: 40px auto;
-  justify-content: center;
-  position: relative;
-}
-
-section {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
-  margin: 0px auto;
-  justify-content: center;
-  position: relative;
-}
-
-h1 {
-  font-family: "Itim", cursive;
-  font-size: 42px;
-}
-
-h2 {
-  font-family: "Itim", cursive;
-  text-align: center;
-  margin-top: 0;
-}
-
-p {
-  font-family: "Work Sans", sans-serif;
+  margin: 0;
 }
 
 nav {
-  background-image: url("pics/paint.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 50%;
-  width: 100%;
-  line-height: 50px;
-  margin-top: 60px;
-}
-
-.liz-pic {
-  border-radius: 50%;
-  position: absolute;
-  border: double black 2px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 300px;
-  background-color: #eae3ea;
-  box-shadow: 10px 10px 30px -8px rgba(0, 0, 0, 0.75);
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-}
-
-.card-img {
-  width: 90px;
-  margin: 0 auto;
-}
-
-.card-img-dc {
-  width: 150px;
-  height: 126px;
-  margin: 0 auto;
-}
-
-.card-img-recipe {
-  width: 110px;
-  margin: 5px auto;
-}
-
-.projects {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  width: 100vw;
+  position: fixed;
+  justify-content: flex-end;
+  background: rgba(240, 101, 67, 0.9);
 }
 
-.small {
-  font-size: 12px;
+.nav-item {
+  display: inline;
+  margin-right: 30px;
 }
 
-hr {
-  width: 100px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
+main {
+  position: relative;
+  top: 40px;
 }
