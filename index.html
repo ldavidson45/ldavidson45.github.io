@@ -10,6 +10,10 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Nunito|Roboto"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./style.css" />
 
@@ -17,8 +21,8 @@
   </head>
   <body>
     <nav>
-      <p class="nav-item">Resume</p>
-      <p class="nav-item">Email</p>
+      <p class="nav-item"><a href="./resume.html">RESUME</a></p>
+      <p class="nav-item">EMAIL</p>
       <p class="nav-item"><i class="fab fa-linkedin-in"></i></p>
       <p class="nav-item"><i class="fab fa-github"></i></p>
       <p class="nav-item"><i class="fab fa-instagram"></i></p>
@@ -28,36 +32,44 @@
       <section class="header">
         <img class="liz-pic" src="./pics/HPS Pic.jpg" alt="" />
         <div class="bio">
-          <h1 class="main-title">Liz Davidson</h1>
+          <h1 class="main-title">LIZ DAVIDSON</h1>
           <h5>Full Stack Web Developer</h5>
         </div>
       </section>
 
       <section class="skills-section">
-        <img
-          class="skills-logo"
-          src="./pics/javascript-seeklogo.com.svg"
-          alt="JavaScript logo"
-        />
-        <img
-          class="skills-logo"
-          src="./pics/react-seeklogo.com.svg"
-          alt="React logo"
-        />
-        <img
-          class="skills-logo"
-          src="./pics/nodejs-seeklogo.com.svg"
-          alt="Node.js logo"
-        />
-        <img
-          class="skills-logo"
-          src="./pics/express-109.svg"
-          alt="Express.js logo"
-        />
-        <img class="skills-logo" src="./pics/mongodb.svg" alt="MongoDB logo" />
+        <h2 class="section-title">SKILLS</h2>
+        <div class="skills-icon-container">
+          <img
+            class="skills-logo"
+            src="./pics/javascript-seeklogo.com.svg"
+            alt="JavaScript logo"
+          />
+          <img
+            class="skills-logo"
+            src="./pics/react-seeklogo.com.svg"
+            alt="React logo"
+          />
+          <img
+            class="skills-logo"
+            src="./pics/nodejs-seeklogo.com.svg"
+            alt="Node.js logo"
+          />
+          <img
+            class="skills-logo"
+            src="./pics/express-109.svg"
+            alt="Express.js logo"
+          />
+          <img
+            class="skills-logo"
+            src="./pics/mongodb.svg"
+            alt="MongoDB logo"
+          />
+        </div>
       </section>
 
       <section class="projects-container">
+        <h2 class="section-title">PROJECTS</h2>
         <article class="project-card">
           <img
             class="project-thumbnail"
@@ -72,12 +84,18 @@
               Animations from
               <a href="https://popmotion.io/pure">Popmotion Pure</a>.
             </p>
-            <a href="https://github.com/ldavidson45/word-scramble"
-              ><i class="fab fa-github"> Github repository</i></a
-            >
-            <a href="https://ldavidson45.github.io/word-scramble"
-              ><i class="fas fa-link">Play!</i></a
-            >
+            <div class="links-container">
+              <a
+                class="project-link"
+                href="https://github.com/ldavidson45/word-scramble"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                class="project-link"
+                href="https://ldavidson45.github.io/word-scramble"
+                ><i class="fas fa-link"></i
+              ></a>
+            </div>
           </div>
         </article>
         <article class="project-card">
