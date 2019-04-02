@@ -1,103 +1,156 @@
 body {
-  background-color: #c4e6db;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  height: 178px;
-  max-width: 900px;
-  margin: 40px auto;
-  justify-content: center;
-  position: relative;
-}
-
-section {
   display: flex;
   flex-direction: column;
-  max-width: 900px;
-  margin: 0px auto;
-  justify-content: center;
-  position: relative;
-}
-
-h1 {
-  font-family: "Itim", cursive;
-  font-size: 42px;
-}
-
-h2 {
-  font-family: "Itim", cursive;
-  text-align: center;
-  margin-top: 0;
-}
-
-p {
-  font-family: "Work Sans", sans-serif;
+  margin: 0;
 }
 
 nav {
-  background-image: url("pics/paint.svg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 50%;
-  width: 100%;
-  line-height: 50px;
-  margin-top: 60px;
-}
-
-.liz-pic {
-  border-radius: 50%;
-  position: absolute;
-  border: double black 2px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 300px;
-  background-color: #eae3ea;
-  box-shadow: 10px 10px 30px -8px rgba(0, 0, 0, 0.75);
-  justify-content: center;
-  padding: 10px;
-  text-align: center;
-}
-
-.card-img {
-  width: 90px;
-  margin: 0 auto;
-}
-
-.card-img-dc {
-  width: 150px;
-  height: 126px;
-  margin: 0 auto;
-}
-
-.card-img-recipe {
-  width: 110px;
-  margin: 5px auto;
-}
-
-.projects {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.small {
-  font-size: 12px;
-}
-
-hr {
-  width: 100px;
+  width: 100vw;
+  position: fixed;
+  overflow: hidden;
+  z-index: 2;
+  justify-content: flex-end;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 30px;
+  color: rgb(169, 224, 238);
+}
+
+.nav-item:hover {
+  color: #e8e9eb;
+}
+
+main {
+  position: relative;
+}
+
+.header {
+  /* background: rgba(4, 94, 117, 0.5); */
+  background-image: linear-gradient(
+    rgba(4, 94, 117, 0.8),
+    rgba(4, 94, 117, 0.4),
+    white
+  );
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+}
+
+.liz-pic {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0 100%);
+  z-index: -1;
+  size: inherit;
+  height: inherit;
+}
+
+.bio {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.main-title {
+  font-size: 45px;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.skills-section {
+  margin-top: 10vh;
+}
+
+.skills-icon-container {
+  /* background: #eee5e9; */
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin: 50px 0;
+}
+
+.skills-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects-container {
+  margin-top: 80px;
+}
+
+.project-thumbnail {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 200px;
+  margin: 10px auto;
+  padding: 25px 10px;
+  align-items: center;
+}
+
+.project-description {
+  margin: 10px;
+  background: white;
+  align-items: center;
+}
+
+.links-container {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+}
+
+.project-link {
+  font-size: 25px;
+  width: 20px;
+  margin: 0 10px;
+  color: rgba(4, 94, 117, 1);
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  color: rgba(4, 94, 117, 1);
+  letter-spacing: 7px;
+  font-size: 35px;
+}
+
+.resume {
+  margin: auto;
+}
+
+.resume-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
