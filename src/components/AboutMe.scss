@@ -1,10 +1,26 @@
+* {
+	box-sizing: border-box;
+	color: #13342f;
+}
+
 .about-section {
-	height: 100vh;
+	min-height: 101vh;
 	padding: 60px;
-	background: white;
+	background: #ffffff;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 
 	&__title {
 		font-size: 3rem;
+		margin-top: 0;
+	}
+
+	&__container {
+		font-size: 20px;
+		max-width: 900px;
+		margin: 0 auto;
 	}
 }
 
