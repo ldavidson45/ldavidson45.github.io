@@ -1,0 +1,19 @@
+.recent-work-section {
+	height: 100vh;
+	background: #4abdac;
+	padding: 30px;
+	&__title {
+		font-size: 3rem;
+		color: white;
+		text-shadow: 3px 3px #13342f;
+		font-family: "Poppins", sans-serif;
+		margin: 0;
+		text-align: center;
+	}
+
+	&__container {
+		display: flex;
+		margin: 30px auto;
+		max-width: 900px;
+	}
+}

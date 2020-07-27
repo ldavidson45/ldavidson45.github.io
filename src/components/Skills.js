@@ -7,9 +7,9 @@ class Skills extends React.Component {
 		return (
 			<section className="skills-section">
 				<div className="skills-section__container">
-					<h3 className="skills-section__title">
+					<h2 className="skills-section__title">
 						Languages & Frameworks
-					</h3>
+					</h2>
 					<ul className="skills-section__list">
 						<li>Vue</li>
 						<li>React</li>

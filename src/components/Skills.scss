@@ -16,11 +16,13 @@
 		border: 1px solid #13342f;
 		border-radius: 10px;
 		padding: 30px;
+		box-shadow: 5px 5px 15px #13342f;
 	}
 
 	&__title {
 		font-size: 2rem;
 		margin-top: 0;
+		font-family: "Poppins", sans-serif;
 	}
 
 	&__list {
@@ -32,6 +34,7 @@
 
 		li {
 			line-height: 1.9rem;
+			font-size: 20px;
 		}
 	}
 }
