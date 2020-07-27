@@ -1,0 +1,13 @@
+.about-section {
+	height: 100vh;
+	padding: 60px;
+	background: white;
+
+	&__title {
+		font-size: 3rem;
+	}
+}
+
+.caps {
+	text-transform: uppercase;
+}
