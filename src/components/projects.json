@@ -5,7 +5,15 @@
 			"description": "A new way to explore the people, policy, and processes shaping the modern regulatory environment in the pharmaceutical, biotechnology, and medical device industries.",
 			"siteURL": "https://agencyiq.com/",
 			"logoImg": "https://agencyiq.com/wp-content/uploads/2019/12/Logo_Full_Color.svg",
-			"backgroundImg": ""
+			"backgroundImg": "https://agencyiq.com/wp-content/uploads/2019/12/Illustration_2-1.svg",
+			"backgroundCol": "rgba(255, 255, 255, 0.7)"
+		},
+		{
+			"title": "Maripro Aquaculture",
+			"description": "A sustainable seafood startup located in Wilmington, NC.",
+			"siteURL": "https://mariprofarms.github.io/maripro/",
+			"backgroundImg": "https://images.unsplash.com/photo-1577979538850-f26500ce779f?auto=format&fit=crop&ixid=eyJhcHBfaWQiOjEyMDd9&ixlib=rb-1.2.1&q=80&w=1951",
+			"backgroundCol": "rgba(44,91,148,.7)"
 		}
 	]
 }

@@ -5,27 +5,64 @@
 	justify-content: space-around;
 	background: #ffffff;
 	padding: 30px;
-	height: 350px;
-	width: 350px;
-	border-radius: 10px;
-	overflow: hidden;
+	height: 100%;
+	height: 100%;
 	font-size: 1rem;
 
-	img {
-		width: 100%;
-		height: auto;
+	&__wrapper {
+		background: #ffffff;
+		height: 350px;
+		width: 350px;
+		margin: 10px;
+		border-radius: 10px;
+		overflow: hidden;
 	}
 
+	&__logo {
+		width: 100%;
+		height: auto;
+
+		&--text {
+			font-size: 2rem;
+			text-align: center;
+			color: #ffffff;
+			padding: 10px;
+		}
+	}
+
+	&__title {
+		font-size: 20px;
+	}
 	&__details {
-		background: black;
+		background: #13342f;
 		position: absolute;
-		height: 350px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
 		padding: 30px;
-		width: 350px;
+		width: 100%;
 		left: 0;
+		top: 0;
+		text-align: center;
 
 		* {
 			color: #ffffff;
+			margin: 5px 0;
+		}
+	}
+
+	&__button {
+		text-decoration: none;
+		color: white;
+		border: 1px solid #4abdac;
+		padding: 10px;
+		border-radius: 50px;
+		justify-self: end;
+
+		&:hover {
+			background: #4abdac;
+			color: white;
 		}
 	}
 }
