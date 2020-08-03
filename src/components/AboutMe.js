@@ -28,6 +28,13 @@ class AboutMe extends React.Component {
 						experienced in using NVDA screenreading technology to
 						build and test features for accessibility.
 					</p>
+					<p>
+						Reach me at{" "}
+						<a href="emailto:lizdavidson45@gmail.com">
+							lizdavidson45@gmail.com
+						</a>
+						.
+					</p>
 				</div>
 			</section>
 		)
