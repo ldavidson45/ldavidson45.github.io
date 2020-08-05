@@ -14,6 +14,20 @@
 			"siteURL": "https://mariprofarms.github.io/maripro/",
 			"backgroundImg": "https://images.unsplash.com/photo-1577979538850-f26500ce779f?auto=format&fit=crop&ixid=eyJhcHBfaWQiOjEyMDd9&ixlib=rb-1.2.1&q=80&w=1951",
 			"backgroundCol": "rgba(44,91,148,.7)"
+		},
+		{
+			"title": "Congress Flash Cards",
+			"description": "A small project I created to experiment with the ProPublica Congress API.",
+			"siteURL": "https://ldavidson45.github.io/moc-data/",
+			"backgroundImg": "https://image.flaticon.com/icons/svg/760/760039.svg",
+			"backgroundCol": "rgba(44,91,148,.7)"
+		},
+		{
+			"title": "Word Scramble Game",
+			"description": "A simple word scramble game made with vanilla javascript, html, and css",
+			"siteURL": "https://ldavidson45.github.io/word-scramble/",
+			"backgroundImg": "https://image.flaticon.com/icons/svg/2739/2739498.svg",
+			"backgroundCol": "rgba(44,91,148,.7)"
 		}
 	]
 }

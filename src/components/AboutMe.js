@@ -28,13 +28,66 @@ class AboutMe extends React.Component {
 						experienced in using NVDA screenreading technology to
 						build and test features for accessibility.
 					</p>
-					<p>
+					{/* <p>
 						Reach me at{" "}
 						<a href="emailto:lizdavidson45@gmail.com">
 							lizdavidson45@gmail.com
 						</a>
 						.
-					</p>
+					</p> */}
+
+					<div className="about-section__contact">
+						<a
+							href="https://www.linkedin.com/in/liz-davidson-a59b2b9b/"
+							aria-label="linkedIn"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="about-section__logo"
+								src="https://image.flaticon.com/icons/svg/1384/1384014.svg"
+								alt="linked-in"
+							/>
+						</a>
+						<a
+							href="https://github.com/ldavidson45"
+							aria-label="github"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="about-section__logo"
+								src="https://image.flaticon.com/icons/svg/2111/2111425.svg"
+								alt="github"
+							/>
+						</a>
+
+						<a
+							href="https://codepen.io/lizdavidson/pens/public"
+							aria-label="codepen"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="about-section__logo"
+								src="https://image.flaticon.com/icons/svg/2111/2111341.svg"
+								alt="codepen"
+							/>
+						</a>
+
+						<a
+							href="emailto:lizdavidson45@gmail.com"
+							aria-label="email"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								className="about-section__logo"
+								src="https://image.flaticon.com/icons/svg/561/561127.svg"
+								alt="email"
+							/>
+						</a>
+					</div>
 				</div>
 			</section>
 		)

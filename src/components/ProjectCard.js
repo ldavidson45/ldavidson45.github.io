@@ -8,7 +8,8 @@ class ProjectCard extends React.Component {
 			isHovered: false,
 			inlineStyles: {
 				background: `linear-gradient(0deg, ${this.props.backgroundCol},${this.props.backgroundCol}), url(${this.props.backgroundImg})`,
-				backgroundSize: "cover"
+				backgroundSize: "cover",
+				backgroundPosition: "center"
 			}
 		}
 		this.toggleHover = this.toggleHover.bind(this)
